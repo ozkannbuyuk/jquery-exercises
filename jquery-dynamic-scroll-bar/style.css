@@ -1,0 +1,22 @@
+:root {
+    --primary-color: red;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    width: 4px;
+    height: 4px;
+}
+
+.content {
+    height: 5000px;
+}
