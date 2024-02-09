@@ -1,0 +1,64 @@
+@import"https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap";
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+    font-family: 'Mulish', sans-serif;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.counter-up {
+    font-size: 10vh;
+    font-weight: 500;
+}
+
+.go-back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.go-back span {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: underline wavy;
+}
+
+button {
+    height: 60px;
+    width: 300px;
+    margin-top: 20px;
+    background: #00d859;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #222;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    outline: 0;
+}
